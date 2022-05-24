@@ -1,0 +1,458 @@
+/* Bootstrap Icons CDN */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+/* Goolge Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+/* Bootstrap Icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }  
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 64, 255, 0.3); 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(125, 102, 255);
+    border-radius: 50px; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(26, 140, 254); 
+  }
+
+#body-id {
+    animation: body 60s linear infinite;
+}
+@keyframes body {
+    0%{
+        background: linear-gradient(225deg, #a3fff7 11%, #d3a2fa 90%);
+    } 
+    10%{
+        background: linear-gradient(45deg, #b7d6ff 11%, #d7bbff 90%);
+    }
+    30%{
+        background: linear-gradient(225deg, #a3fff7 11%, #d3a2fa 90%);
+    }
+    49%{
+        background: linear-gradient(45deg, #b7d6ff 11%, #d7bbff 90%);
+    }
+    60%{
+        background: linear-gradient(225deg, #a3fff7 11%, #d3a2fa 90%);
+    }
+    79%{
+        background: linear-gradient(45deg, #b7d6ff 11%, #d7bbff 90%);
+    }
+    99%{
+        background: linear-gradient(225deg, #a3fff7 11%, #d3a2fa 90%);
+    }
+}
+#nav-container {
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand {
+    width: 50%;
+}
+#title-img {
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 50px;
+}
+
+li {
+    padding: 10px;
+}
+.nav-item:hover {
+    transition: .2s all;
+    border-bottom: 1px solid black;
+}
+#bio {
+    margin: 70px 0px;
+}
+#bio-row {
+    padding: 0 50px;
+}
+#bio-title {
+    font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+#text-gradient {
+    background: -webkit-linear-gradient(300deg, rgb(26, 140, 254), rgb(125, 102, 255), rgb(24, 246, 113));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+#bio-para {
+    font-size: 1.3rem;
+    color: rgb(104, 104, 104);
+    padding: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#btn-book-call {
+    background-color: black;
+    color: white;
+    border-radius: 0%;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px;
+}
+#btn-book-call:hover {
+    transition: .2s all;
+    box-shadow: none;
+    transform: translateX(10px);
+}
+#btn-cv {
+    border-radius: 0%;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+}
+#btn-cv:hover {
+    transition: .2s all;
+    box-shadow: rgba(46, 124, 240, 0.4) 5px 5px, rgba(46, 124, 240, 0.3) 10px 10px, rgba(46, 124, 240, 0.2) 15px 15px, rgba(46, 124, 240, 0.1) 20px 20px;
+    transform: translateX(10px);
+    background-color: black;
+    color: white;
+}
+#bio-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -50px;
+}
+#my-image {
+    padding: 40px;
+}
+#services {
+    margin: 80px 0 30px 0;
+}
+#services-title {
+    text-align: center;
+    letter-spacing: 4px;
+    background: -webkit-linear-gradient(300deg, rgb(26, 140, 254), rgb(125, 102, 255), rgb(24, 246, 113));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+#services-moto {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
+}
+#services-row {
+    padding: 80px 50px;
+}
+#services-content {
+    padding: 10px 20px;
+    text-align: start;
+    font-family: 'Raleway', sans-serif;
+}
+#projects-title {
+    padding: 0 0 0 140px;
+}
+#projects-title h1:nth-child(1) {
+    text-align: start;
+    letter-spacing: 4px;
+    background: -webkit-linear-gradient(300deg, rgb(26, 140, 254), rgb(125, 102, 255), rgb(24, 246, 113));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+#projects-moto {
+    color: black;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.6rem;
+}
+#see-projects {
+    text-align: center;
+    padding: 100px 0;
+}
+#btn-see-projects {
+    transition: .2s all;
+    box-shadow: rgba(46, 124, 240, 0.4) 5px 5px, rgba(46, 124, 240, 0.3) 10px 10px, rgba(46, 124, 240, 0.2) 15px 15px, rgba(46, 124, 240, 0.1) 20px 20px;
+    background-color: black;
+    color: white;
+    font-size: 1.4rem;
+    padding: 10px 20px;
+    border-radius: 0%;
+}
+#btn-see-projects:hover {
+    transition: .2s all;
+    box-shadow: none;
+    transform: translateX(10px);
+}
+#carousel {
+    padding: 10px 100px;
+}
+#carousel-title {
+    font-size: 3rem;
+    color: black;
+    padding: 10px 0;
+    background: -webkit-linear-gradient(45deg,rgb(26, 140, 254), rgb(125, 102, 255), rgb(24, 246, 113));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Raleway', sans-serif;
+}
+#load-projects {
+    display: none;
+}
+#about-row {
+    padding: 50px 0 50px 150px;
+}
+#education-title {
+    font-size: 3rem;
+    text-align: center;
+}
+#education-content {
+    padding: 40px 0px 0px 20px;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    border-bottom: 1px solid rgb(178, 178, 178);
+}
+#education-content:hover {
+    transition: .3s all;
+    cursor: pointer;
+}
+#contact-content {
+    padding: 40px 0px 0px 20px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.bi-twitter {
+    border-radius: 50%;
+    background-color: rgba(33, 144, 255, .3);
+    font-size: 2.4rem;
+    padding: 10px 15px;
+}
+.bi-github {
+    border-radius: 50%;
+    background-color: rgba(192, 192, 192, 0.3);
+    font-size: 2.4rem;
+    padding: 10px 15px;
+}
+.bi-linkedin {
+    border-radius: 50%;
+    background-color: rgba(0, 64, 255, 0.3);
+    font-size: 2.4rem;
+    padding: 10px 15px;
+}
+#faq {
+    background-color: black;
+    margin-top: 100px;
+}
+#faq-title {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    padding: 15px 0;
+}
+.accordion {
+    padding: 50px 300px;
+    text-align: center;
+}
+.accordion-item {
+    margin: 30px 0;
+}
+footer {
+    padding: 100px 0px 30px 0px;
+    background-color: black;
+}
+#footer-title {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+}
+#contact {
+    padding: 50px 100px;
+}
+#contact-title {
+    font-size: 4rem;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    padding: 30px 0;
+}
+#contact-para {
+    font-size: 1.6rem;
+    color: gray;
+}
+#email span {
+    position: relative;
+    top: -10px;
+}
+#phone span {
+    position: relative;
+    top: -10px;
+}
+#body-contact {
+    background: linear-gradient(125deg, #a3fff7 11%, #d3a2fa 90%);
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-item:hover {
+        transition: .2s all;
+        border: none;
+        border-right: 5px solid black;
+    }
+    #bio {
+        padding: 60px 0px;
+        margin: 0;
+    }
+    #bio-row {
+        padding: 0 20px;
+    }
+    #bio-title {
+        font-size: 2.7rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+    }
+    #bio-para {
+        font-size: 1rem;
+    }
+    #bio-right {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        position: relative;
+        top: 50px;
+    }
+    #my-image {
+        padding: 10px;
+    }
+    #btn-book-call,
+    #btn-cv,
+    #btn-see-projects {
+        font-size: .9rem;
+    }
+    #services {
+        margin: 80px 0 30px 0;
+    }
+    #services-title {
+        font-size: 2rem;
+    }
+    #services-moto {
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    #services-row {
+        padding: 60px 10px;
+    }
+    #projects-title {
+        padding: 0px;
+        margin: 0;
+    }
+    #projects-title h1:nth-child(1) {
+        text-align: start;
+        letter-spacing: 4px;
+        background: -webkit-linear-gradient(250deg, rgb(26, 254, 72), rgb(58, 24, 251));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+        font-size: 2rem;
+    }
+    #projects-moto {
+        color: black;
+        font-weight: bolder;
+        font-family: 'Raleway', sans-serif;
+        font-size: 2.7rem;
+    }
+    #see-projects {
+        text-align: start;
+        padding: 0;
+    }
+    #carousel {
+        padding: 60px 10px;
+        overflow-x: hidden;
+    }
+    #carousel-title {
+        font-size: 1.6rem;
+        color: black;
+        padding: 10px 0;
+    }
+    #about-row {
+        padding: 50px 0;
+    }
+    #education-title {
+        font-size: 2.5rem;
+    }
+    #contact-content {
+        padding: 40px 0px 0px 20px;
+        display: grid;
+        grid-template-columns: 80% 20%;
+    }
+    .bi-twitter {
+        border-radius: 50%;
+        background-color: rgba(33, 144, 255, .3);
+        font-size: 2rem;
+        padding: 10px 15px;
+    }
+    .bi-github {
+        border-radius: 50%;
+        background-color: rgba(84, 84, 84, 0.3);
+        font-size: 2rem;
+        padding: 10px 15px;
+    }
+    .bi-linkedin {
+        border-radius: 50%;
+        background-color: rgba(0, 67, 135, 0.3);
+        font-size: 2rem;
+        padding: 10px 15px;
+    }
+    #contact-content button {
+        margin-left: 40px;
+    }
+    #faq-title {
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+        padding: 10px 0;
+    }
+    .accordion {
+        padding: 50px 0px;
+        text-align: center;
+    }
+    footer {
+        padding: 50px 0;
+    }
+    #footer-title {
+        color: white;
+        font-size: 2rem;
+    }
+    #footer-links {
+        display: flex;
+    }
+    #contact {
+        padding: 50px 0px;
+    }
+    #contact-title {
+        font-size: 3rem;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+        padding: 20px 0;
+    }
+    #email span {
+        position: relative;
+        top: -5px;
+    }
+    #phone span {
+        position: relative;
+        top: -5px;
+    }
+
+}

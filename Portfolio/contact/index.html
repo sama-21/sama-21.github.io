@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+      Get in Touch!
+    </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Wasamat Sameer">
+    <meta name="keywords" content="HTML, CSS, JavaScript, jQuery, Portfolio, Wasamat, Sameer">
+    <meta name="description" content="Personal Portfolio of Wasamat Sameer">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../Code/styles.css">
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head> 
+  <body id="body-contact">
+    
+    
+    <!-- Navbar -->
+    <div id="nav-container">
+    <nav class="container navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../Code/index.html">
+              <img src="../asset/Images/profile-pic (1).png" alt="" id="title-img">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#projects">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#faq">FAQs</a>
+              </li>
+              <a href="#" class="nav-link">
+                <button class="btn fs-6 pt-2" id="btn-arrow-right" onmouseenter="arrowFunction()" onmouseleave="arrowFunction2()">
+                  BOOK A CALL <i class="bi bi-arrow-right"></i>
+              </button>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      </div>
+
+      <!-- Contact -->
+      <section class="container-fluid" id="contact">
+        <div class="container row">
+            <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12" id="contact-left">
+               <div class="py-4">
+                   <h1 id="contact-title">
+                       Get in touch
+                   </h1>
+                   <p id="contact-para">
+                       Have a project in mind? Reach out
+                       through the contact form and I'll
+                       get back to you in the next 48 hours.
+                   </p>
+                   <div class="py-3">
+                    <p id="email">
+                        <i class="bi bi-envelope-fill fs-1 pe-3"></i> <span class="fs-4"> wasamatsameer@gmail.com </span>
+                    </p>
+                    <p id="phone">
+                        <i class="bi bi-telephone-fill fs-1 pe-3"></i> <span class="fs-4"> +91 842 063 8009 </span>
+                    </p>
+                   </div>
+               </div>
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 p-5" id="contact-right">
+                <form class="row g-3 needs-validation" validate>
+                    <div class="col-md-6">
+                      <label for="validationCustom01" class="form-label fs-5">First Name</label>
+                      <input type="text" class="form-control fs-5" id="validationCustom01" placeholder="First Name" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationCustom02" class="form-label fs-5">Last name</label>
+                      <input type="text" class="form-control fs-5" id="validationCustom02" placeholder="Last Name" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="validationCustomUsername" class="form-label fs-5">Your Email</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control fs-5" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                          Please enter a valid email address
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="validationCustom04" class="form-label fs-5">Your Budget</label>
+                      <select class="form-select fs-5" id="validationCustom04" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>1K-3K</option>
+                        <option>3K-5K</option>
+                        <option>5K-8K</option>
+                        <option>Somewhere around 10K</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please select a valid state.
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="validationCustom03 exampleFormControlTextarea1" class="form-label fs-5">Give me an idea of what you are looking for.</label>
+                        <textarea name="message" class="form-control fs-5" id="exampleFormControlTextarea1" cols="30" rows="5"></textarea>
+                        <div class="invalid-feedback">
+                          Must be atleast 10 words.
+                        </div>
+                      </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <div class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary fs-5 py-3 px-4" type="submit">Submit form</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+      </section>
+
+
+      <!-- Footer -->
+      <footer class="container-fluid">
+        <div class="container">
+          <h1 id="footer-title">
+            Want to make something amazing? <br>
+            <a class="nav-link p-0" href="#" id="text-gradient">
+              Let's get on a call.
+            </a> 
+          </h1>
+          <div class="row my-5">
+            <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 py-5" id="footer-left">
+              <a href="../code/index.html" class="nav-link text-light p-0 fw-bold fs-2" id="text-gradient">
+                Wasamat Sameer.
+              </a>
+              <address class="text-secondary fs-5 pt-3">
+                376/2 Sarat Chatterjee Road, Howrah, INDIA
+              </address>
+              <a href="mailto:wasamatsameer@gmail.com?" class="nav-link p-0 fs-5 text-secondary">
+                <i class="bi bi-google pe-1"></i> wasamatsameer@gmail.com
+              </a>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 py-5" id="footer-right">
+              <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                  <div id="footer-links">
+                    <a href="#about" class="nav-link text-light fs-5 p-3">
+                      About
+                    </a>
+                    <a href="#services" class="nav-link text-light fs-5 p-3">
+                      Services
+                    </a>
+                    <a href="#" class="nav-link text-light fs-5 p-3">
+                      Book a Call
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                  <div id="footer-links">
+                    <a href="#projects" class="nav-link text-light fs-5 p-3">
+                      Projects
+                    </a>
+                    <a href="https://twitter.com/SAMA35016243" class="nav-link text-light fs-5 p-3">
+                      Twitter
+                    </a>
+                    <a href="https://github.com/sama-214" class="nav-link text-light fs-5 p-3">
+                      Github
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                  <div id="footer-links">
+                    <a href="#faq" class="nav-link text-light fs-5 p-3">
+                      FAQs
+                    </a>
+                    <a href="https://www.linkedin.com/in/wasamat-sameer-302660210/" class="nav-link text-light fs-5 p-3">
+                      LinkedIn
+                    </a>
+                  </div>
+                </div>
+              </div>              
+            </div>
+          </div>
+          <h1 class="text-center fs-5 text-light">
+            &copy; All rights reserved. Made by <span id="text-gradient">Wasamat Sameer.</span>
+          </h1>
+        </div>
+      </footer>
+
+
+                <!-- Bootstrap JavaScript Libraries -->
+                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+                <!-- jQuery CDN -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                <!-- External JavaScript -->
+                <script src="../Code/app.js"></script>
+</body>
+</html>
